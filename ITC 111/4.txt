@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Class Exercise 03</title>
+        <style>
+            div{
+                margin: 0px auto;
+                width: 50%;
+            }
+            header{
+                text-align: center;
+
+            }
+            nav{
+                background-color: burlywood;
+                color: crimson;
+            }
+        </style>
+    </head>
+
+    <body>
+ 
+        <header>
+        <!--Banner Start-->
+    <h1>ITC-111 Assignment Portal</h1>
+    <!--Banner End-->
+
+    <!--Navigation Start-->
+    <nav>
+        <a href="#" title="home">Home</a>&nbsp;
+        <a href="#" title="classEx">class Exercise</a>&nbsp;
+        <a href="#" title="assignment">Assignment</a>&nbsp;
+        <a href="#" title="resources">Resources</a>
+    </nav>
+    <!--Navigation End-->
+    </header>
+
+  
+
+
+    </body>
+</html>

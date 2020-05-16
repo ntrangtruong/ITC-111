@@ -1,0 +1,33 @@
+.container {
+   background-color: bisque;
+   margin: 0 auto;
+   border-radius: 15px;
+   border:1px black;
+   width: 20%
+
+}
+#mainHeader {
+background-color: brown;
+text-align: center;
+color: cornflowerblue;
+padding: 10px;
+
+}
+#formData {
+   margin: 0 auto;
+   text-align: center;
+   color: crimson;
+   padding: 10px;
+
+}
+.registration {
+    text-align: left;
+    margin-left: 21px;
+}
+.signInLabel{
+   text-align: center;
+
+}
+#age {
+   width: 21px;
+}
