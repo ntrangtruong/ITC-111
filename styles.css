@@ -1,33 +1,71 @@
-.container {
-   background-color: bisque;
-   margin: 0 auto;
-   border-radius: 15px;
-   border:1px black;
-   width: 20%
-
+/*
+    This style will contol the look of ul elements on the page.
+*/
+ul {
+    background-color: #a01b1b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-#mainHeader {
-background-color: brown;
-text-align: center;
-color: cornflowerblue;
-padding: 10px;
-
+/*
+    This style floats 'li' elements to the left.
+*/
+li {
+    float: left;
 }
-#formData {
-   margin: 0 auto;
-   text-align: center;
-   color: crimson;
-   padding: 10px;
-
+/*
+    This effects 'display', 'color' and 'padding' of both 'li' and
+    'a' elements individually.
+*/
+li, a {
+    display: inline-block;
+    color: white;
+    padding: 12px;
 }
-.registration {
-    text-align: left;
-    margin-left: 21px;
+/*
+    This style effects the 'background-color' of only an 'a' element
+    that is inside of 'li' elements, based on the cursors hover state.
+*/
+li a:hover {
+    background-color: #111111;
 }
-.signInLabel{
-   text-align: center;
-
+a {
+    text-decoration: none;
 }
-#age {
-   width: 21px;
+/*
+    This style effects the element with the id of #outerDiv.
+*/
+#outerDiv {
+    margin: 0 auto;
+    width: 75%;
+    overflow: hidden;
+}
+/*
+    This style aligns 2 of the inner div's to the left 
+*/
+#innerDivBodyLeft_Default,#innerDivBodyRight {
+    text-align: center;
+    float: left;
+    height: 500px;
+}
+/*
+    This style effects the element with the id of #innerDivBodyLeft.
+*/
+#innerDivBodyLeft_Default {
+    background-color: cadetblue;
+    width: 20%;
+}
+/*
+    This style effects the element with the id of #innerDivBodyRight.
+*/
+#innerDivBodyRight {
+    background-color: rgb(214, 218, 14);
+    width: 80%;
+}
+#divLeft_Default{
+    display: block;
+}
+#divLeft_CELinks, #divLeft_ALinks, #divLeft_RLinks{
+    display: none;
 }
